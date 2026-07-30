@@ -1,0 +1,99 @@
+:root {
+  --color-fondo: #f5f7ff;
+  --color-fondo-2: #e6eeff;
+  --color-texto: #406130;
+  --color-secundario: #010102;
+  --font-base: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, var(--color-fondo), var(--color-fondo-2));
+  color: var(--color-texto);
+  font-size: var(--font-base);
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.hero p {
+  margin: 0;
+  color: var(--color-secundario);
+}
+
+.grid-directorio {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card-usuario {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-acento), #7a90ff);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.info h2 {
+  margin: 0 0 6px;
+  font-size: 1.1rem;
+}
+
+.role {
+  margin: 0 0 8px;
+  font-weight: bold;
+  color: var(--color-acento);
+}
+
+.info p {
+  margin: 3px 0;
+  color: var(--color-secundario);
+}
+
+@media (min-width: 768px) {
+  .grid-directorio {
+    grid-template-columns: 1.2fr 0.8fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid-directorio {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
