@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio - Gabriel Montero</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">Gabriel Montero</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#biografia">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#logros">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5" id="inicio">
+    <section class="p-5 mb-4 bg-armor text-light rounded-3 hero">
+      <h1 class="display-5">Gabriel Montero</h1>
+      <p class="lead">Desarrollador web | Proyectos personales.</p>
+      <p class="mt-3"> Iniciando mi trayectoria en el desarrollo web.</p>
+      <a href="#biografia" class="btn btn-accent btn-lg mt-3">Ver mi perfil</a>
+    </section>
+
+    <div class="row g-4 align-items-stretch">
+      <div class="col-12 col-lg-7">
+        <div class="card section-card text-light h-100" id="biografia">
+          <div class="card-body">
+            <h2 class="card-title section-title">Sobre mí</h2>
+            <div class="row g-3 align-items-center">
+              <div class="col-12 col-sm-4 text-center">
+                <img src="assets/img/foto-personal.jpeg" alt="Foto de Gabriel" class="img-fluid rounded-circle profile-img" />
+              </div>
+              <div class="col-12 col-sm-8">
+                <p>Soy desarrollador web con interés en interfaces limpias y código mantenible. Me gusta aprender nuevas tecnologías y colaborar en proyectos que resuelvan problemas reales.</p>
+                <h3 class="h6 mt-2 text-accent">Habilidades</h3>
+                <ul class="ps-3 mb-0">
+                  <li>HTML, CSS, JavaScript</li>
+                  <li>Bootstrap, Python</li>
+                  <li>PHP</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5">
+        <div class="card section-card text-light h-100">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <h2 class="card-title section-title">Lenguajes aprendidos</h2>
+              <p class="mb-4">Estudiante de primero en programación WEB con bases sólidas en desarrollo web y lógica de programación. Actualmente practico proyectos pequeños y ejercicios para afianzar cada lenguaje.</p>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="info-box">
+                    <span>HTML</span>
+                    <p>Construcción de páginas estáticas y estructura de contenido.</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="info-box">
+                    <span>CSS</span>
+                    <p>Estilos, diseño responsivo y maquetación visual.</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="info-box">
+                    <span>Python</span>
+                    <p>Programación básica, algoritmos y resolución de problemas.</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="info-box">
+                    <span>PHP</span>
+                    <p>Introducción a backend simple y generación dinámica de páginas.</p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="info-box">
+                    <span>JavaScript</span>
+                    <p>Interactividad en el navegador y ejercicios de lógica con DOM.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col-12">
+        <div class="card section-card text-light mb-3" id="logros">
+          <div class="card-body">
+            <h2 class="card-title section-title">Proyectos</h2>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-3">
+                <div class="card h-100 project-card">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Página de inicio</h5>
+                    <p class="card-text flex-grow-1">Diseño de una página web sencilla con HTML y CSS para presentar información personal.</p>
+                    <a href="#" class="btn btn-sm btn-outline-accent mt-3">Ver proyecto</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="card h-100 project-card">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Formulario de contacto</h5>
+                    <p class="card-text flex-grow-1">Formulario básico con validación simple usando JavaScript y estilos responsive.</p>
+                    <a href="#" class="btn btn-sm btn-outline-accent mt-3">Ver proyecto</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="card h-100 project-card">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Mini app en Python</h5>
+                    <p class="card-text flex-grow-1">Programa de consola para ejercicios de lógica, cálculo o listas usando Python.</p>
+                    <a href="#" class="btn btn-sm btn-outline-accent mt-3">Ver proyecto</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="card h-100 project-card">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Página dinámica en PHP</h5>
+                    <p class="card-text flex-grow-1">Pequeña página con contenido dinámico y datos de formulario procesados por PHP.</p>
+                    <a href="#" class="btn btn-sm btn-outline-accent mt-3">Ver proyecto</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5" id="contacto">
+    <section class="p-4 mt-4 bg-card text-light rounded-3">
+      <h2 class="h4 section-title">Contacto</h2>
+      <p class="mb-3">Escríbeme a <a class="link-accent" href="mailto:tu@gmail.com">Santiago@gmail.com</a> o usa el siguiente formulario.</p>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control form-control-dark" placeholder="Nombre" aria-label="Nombre">
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control form-control-dark" placeholder="Correo" aria-label="Correo">
+        </div>
+        <div class="col-12">
+          <textarea class="form-control form-control-dark" rows="4" placeholder="Mensaje"></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-accent">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </div>
+  <footer class="bg-footer text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Contacto</h5>
+          <p class="mb-1">Email: <a class="link-accent" href="mailto:tu@correo.com">Santiago@gmail.com</a></p>
+          <p class="mb-0">Tel: <a class="link-accent" href="tel:+34123456789">+52 981 123 4567</a></p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <h5>Redes</h5>
+          <a class="btn btn-sm btn-outline-light me-2" href="#">GitHub</a>
+          <a class="btn btn-sm btn-outline-light" href="#">Instagram</a>
+          <a class="btn btn-sm btn-outline-light" href="#">WhatsApp</a>
+          <a class="btn btn-sm btn-outline-light" href="#">Facebook</a>
+        </div>
+      </div>
+      <div class="text-center mt-3 small">© 2026 Gabriel Montero</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ 
